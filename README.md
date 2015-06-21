@@ -5,6 +5,9 @@ The datafiles used for processing are located here: http://archive.ics.uci.edu/m
 
 To test run this program please ensure you have extracted the files in your working directory or make the extraction location your working directory before you execute the program.
 
+##Observations
+The output file will provide observations of the data sorted by participant and activity. Each participant may have many entries for a given activity such as "WALKING".  The observation is the average all the entries for a given user for each activity. Each participant will have up to 6 observations related to the six distinct activities provided by the study (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING). 
+
 ##Program Function
 * To generate a tidey data-set
 * Aggregate test and train data
